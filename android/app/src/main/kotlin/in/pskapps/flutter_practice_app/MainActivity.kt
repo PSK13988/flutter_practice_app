@@ -1,4 +1,4 @@
-package in.pskapps.flutter_practice_app
+package `in`.pskapps.flutter_practice_app
 
 import io.flutter.embedding.android.FlutterActivity
 
