@@ -62,14 +62,24 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
-            RaisedButton(
-              onPressed: null,
-              child: Text('Click me for getting count, Hahah...'),
+            Column(
+
+              children: [
+                RaisedButton(
+                  onPressed: null,
+                  child: Text('Click me for getting count, Hahah...'),
+                ),
+                RaisedButton(
+                  onPressed: null,
+                  child: Text('Click me for getting count, Hahah...'),
+                ),
+              ],
             ),
           ],
         ),
       ),
       floatingActionButton: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
             onPressed: _incrementCounter,
