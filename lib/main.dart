@@ -53,27 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Counter click app Sample new widget',
-            ),
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
-            ),
-            Column(
-
-              children: [
-                RaisedButton(
-                  onPressed: null,
-                  child: Text('Click me for getting count, Hahah...'),
-                ),
-                RaisedButton(
-                  onPressed: null,
-                  child: Text('Click me for getting count, Hahah...'),
-                ),
-              ],
             ),
           ],
         ),
