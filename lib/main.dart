@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 // Master branch issue fixed commit
+// feature 1
+// feature 2
 void main() {
   runApp(MyApp());
 }
