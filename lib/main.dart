@@ -57,6 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headline4,
             ),
             Text('Issue03'),
+            Text('Feature Branch 02'),
           ],
         ),
       ),
