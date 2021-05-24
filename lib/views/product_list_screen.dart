@@ -27,7 +27,7 @@ class ProductListScreen extends StatelessWidget {
                             padding: const EdgeInsets.all(20.0),
                             child: Text(
                                 'id: ${productController.products[index].id} --> name: ${productController.products[index].name}'
-                                ' --> Price : ${productController.products[index].price}'),
+                                ' --> Price1 : ${productController.products[index].price}'),
                           ),
                         ],
                       ));
