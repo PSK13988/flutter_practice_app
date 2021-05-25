@@ -39,6 +39,7 @@ class ProductListScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () {
+          // Added extra AND condition
           var productController = Get.find<ProductController>();
           var id = productController.products.length + 1;
           var name = 'Product $id';
