@@ -12,7 +12,7 @@ class ProductDetailScreen extends StatelessWidget {
       body: Column(
         children: [
           Text('${Get.arguments.toString()}'),
-          Text('2'),
+          Text('2 : Updated the label information'),
           Text('3'),
           FlatButton(
               onPressed: () {
