@@ -45,7 +45,7 @@ class ProductListScreen extends StatelessWidget {
           var price = 100.0 + id;
           productController
               .addProduct(Product(id: id, name: name, price: price));
-          print('Product added $name');
+          print('Product added main $name');
         },
       ),
     );
